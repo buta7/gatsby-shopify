@@ -17,6 +17,8 @@ gh-pagesのインストール
 
     $ npm install gh-pages --save-dev
 
+githubのレポジトリ"hugo-shopify"作成
+
 gatsby-config.js(リンクのprefixを付加:githubのレポジトリ名に設定すること)
 
     ...
