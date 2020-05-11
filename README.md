@@ -26,8 +26,9 @@ gatsby-config.js(上記prefixを付加してbuildしpublicディレクトリをg
       ...
       "develop": "gatsby develop",
       "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+      "clean": "gatsby clean",
       ...
-            
+
 gh-pagesのインストール
 
     $ npm install gh-pages --save-dev
@@ -35,7 +36,13 @@ gh-pagesのインストール
 GithubにRepository"hugo-shopify"を作成後
 
     $ git remote add origin git@github.com:higebobo/hugo-shopify.git
+    $ git add -A
+    $ git commit -m 'init'
     $ git push -u origin master
+
+デプロイ
+
+    $ npx run deploy
 
 reactが無いというエラーが出た場合
 
