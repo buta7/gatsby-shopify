@@ -13,15 +13,6 @@
 
 ## Github pagesとの連携
 
-gh-pagesのインストール
-
-    $ npm install gh-pages --save-dev
-
-GithubにRepository"hugo-shopify"を作成後
-
-    $ git remote add origin git@github.com:higebobo/hugo-shopify.git
-    $ git push -u origin master
-
 gatsby-config.js(リンクのprefixを付加:githubのレポジトリ名に設定すること)
 
     ...
@@ -37,6 +28,15 @@ gatsby-config.js(上記prefixを付加してbuildしpublicディレクトリをg
       "deploy": "gatsby build --prefix-paths && gh-pages -d public",
       ...
             
+gh-pagesのインストール
+
+    $ npm install gh-pages --save-dev
+
+GithubにRepository"hugo-shopify"を作成後
+
+    $ git remote add origin git@github.com:higebobo/hugo-shopify.git
+    $ git push -u origin master
+
 reactが無いというエラーが出た場合
 
     $ rm -fr package-lock.json node_modules
