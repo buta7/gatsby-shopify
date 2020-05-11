@@ -4,7 +4,7 @@
 
 サイト作成
 
-    $ npx gatsby new hugo-shopify https://github.com/AlexanderProd/gatsby-shopify-starter
+    $ npx gatsby new gatsby-shopify https://github.com/AlexanderProd/gatsby-shopify-starter
 
 サーバ起動
 
@@ -16,7 +16,7 @@
 gatsby-config.js(リンクのprefixを付加:githubのレポジトリ名に設定すること)
 
     ...
-      pathPrefix: "/hugo-shopify",
+      pathPrefix: "/gatsby-shopify",
     }
 
 gatsby-config.js(上記prefixを付加してbuildしpublicディレクトリをgh-pagesブランチにプッシュ)
@@ -33,9 +33,9 @@ gh-pagesのインストール
 
     $ npm install gh-pages --save-dev
 
-GithubにRepository"hugo-shopify"を作成後
+GithubにRepository"gatsby-shopify"を作成後
 
-    $ git remote add origin git@github.com:higebobo/hugo-shopify.git
+    $ git remote add origin git@github.com:higebobo/gatsby-shopify.git
     $ git add -A
     $ git commit -m 'init'
     $ git push -u origin master
