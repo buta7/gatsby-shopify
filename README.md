@@ -8,7 +8,7 @@
 
 サーバ起動
 
-    $ cd higebobo-shopify
+    $ cd gatsby-shopify
     $ gatsby develop
 
 ## Github pagesとの連携
@@ -53,6 +53,5 @@ reactが無いというエラーが出た場合
 
 * [ https://github\.com/AlexanderProd/gatsby\-shopify\-starter
 ](https://www.gatsbyjs.org/starters/AlexanderProd/gatsby-shopify-starter/)
-* [GatsbyとNetlifyで簡単にブログを作成 \- Qiita](https://qiita.com/k-penguin-sato/items/7554e5e7e90aa10ae225)
 * [How Gatsby Works with GitHub Pages \| GatsbyJS](https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/)
 * [Can I change build directory path from public to anything else? · Issue \#14703 · gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby/issues/14703)
