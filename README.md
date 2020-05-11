@@ -4,11 +4,11 @@
 
 サイト作成
 
-    $ npx gatsby new higebob-shopify https://github.com/AlexanderProd/gatsby-shopify-starter
+    $ npx gatsby new hugo-shopify https://github.com/AlexanderProd/gatsby-shopify-starter
 
 サーバ起動
 
-    $ cd higebob-shopify
+    $ cd higebobo-shopify
     $ gatsby develop
 
 ## Github pagesとの連携
@@ -20,7 +20,7 @@ gh-pagesのインストール
 gatsby-config.js(リンクのprefixを付加:githubのレポジトリ名に設定すること)
 
     ...
-      pathPrefix: "/higebobo-shoplify",
+      pathPrefix: "/hugo-shopify",
     }
 
 gatsby-config.js(上記prefixを付加してbuildしpublicディレクトリをgh-pagesブランチにプッシュ)
