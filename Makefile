@@ -19,6 +19,12 @@ clean: ## Clean cache, public directory
 deploy: ## Deploy on Github Pages
 	@npm run deploy
 
+dist-clean: ## Dist clean
+	@rm -fr package-lock.json node_modules
+
+install: dist-clean ## Install
+	@npm install
+
 help: ## Print this help
 	@echo 'Usage: make [target]'
 	@echo ''
